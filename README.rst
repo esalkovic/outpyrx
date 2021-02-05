@@ -1,8 +1,4 @@
-OutPyRX: A Novel Bayesian Outlier Score Based on the
-  Negative Binomial Distribution for
-  Detecting Aberrantly Expressed Genes in
-  RNA-Seq
-  Gene Expression Count Data
+OutPyRX: A Novel Bayesian Outlier Score Based on the Negative Binomial Distribution for Detecting Aberrantly Expressed Genes in RNA-Seq Gene Expression Count Data
 =========================================================================================================
 
 OutPyRX has been tested on Linux (Ubuntu)
