@@ -69,7 +69,7 @@ A usage primer
 --------------
 We will run OutPyRX using the publicly
 available dataset from
-https://media.nature.com/original/nature-assets/ncomms/2017/170612/ncomms15824/extref/ncomms15824-s1.txt,
+https://static-content.springer.com/esm/art%3A10.1038%2Fncomms15824/MediaObjects/41467_2017_BFncomms15824_MOESM390_ESM.txt,
 which was published as part of the
 supplemental material
 of the paper [Kremer2017]_.
@@ -82,14 +82,14 @@ but they should be straightforward to
 
  mkdir workspace
  cd workspace
- outpyrx -p normalize_sf https://media.nature.com/original/nature-assets/ncomms/2017/170612/ncomms15824/extref/ncomms15824-s1.txt
+ outpyrx -p normalize_sf https://static-content.springer.com/esm/art%3A10.1038%2Fncomms15824/MediaObjects/41467_2017_BFncomms15824_MOESM390_ESM.txt
 
 If you supply an URL as its ``data_file``
 parameter it will save the file from
 the URL.
 In the example above, it will save
 to the working directory the file
-``ncomms15824-s1.txt``.
+``41467_2017_BFncomms15824_MOESM390_ESM.txt``.
 
 After OutPyRX finishes processing the data,
 it will create a CSV files containing
@@ -103,7 +103,7 @@ parameters of the underlying negative
 binomial (NB) process.
 For the example above it will
 create the directory
-``[ALL]-sp-normalized_sf-from-ncomms15824-s1``..
+``[ALL]-sp-normalized_sf-from-41467_2017_BFncomms15824_MOESM390_ESM``..
 
 Note that Python itself might create
 a ``__pycache__`` directory.
@@ -122,7 +122,7 @@ run the following Python commands::
  import outpyr.helpers_tensorflow as htf
 
  j = 0
- ti = htf.TraceInspector(r'[ALL]-sp-normalized_sf-from-ncomms15824-s1')
+ ti = htf.TraceInspector(r'[ALL]-sp-normalized_sf-from-41467_2017_BFncomms15824_MOESM390_ESM')
  ti.plot_r_j_trace(j)
 
 which will plot the trace (after warm-up)
