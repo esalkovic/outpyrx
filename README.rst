@@ -8,7 +8,7 @@ alpha stage,
 so encountering bugs while
 running it is expected.
 
-If you use OutPyR in your research
+If you use OutPyRX in your research
 you can cite our paper::
 
 Edin Salkovic and Halima Bensmail, "A Novel Bayesian Outlier Score Based on the Negative Binomial Distribution for Detecting Aberrantly Expressed Genes in RNA-Seq Gene Expression Count Data," in IEEE Access, vol. 9, pp. 75789-75800, 2021, doi: 10.1109/ACCESS.2021.3082311. https://doi.org/10.1109/ACCESS.2021.3082311
